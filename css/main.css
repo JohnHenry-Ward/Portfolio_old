@@ -26,7 +26,7 @@ header{
     background-image: linear-gradient(#0B3C5D, #1D2732);
     width: 100%;
     height: 575px;
-    /* height: 100%; */
+    height: 100%;
     position: absolute;
     z-index: -2;
     top: 0;
@@ -174,7 +174,7 @@ header a:hover{
     color: var(--yellow-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-top: 3000px;
+    margin-top: 500px;
     margin-bottom: 5px;
 }
 
@@ -328,10 +328,9 @@ header a:hover{
 }
 
 .internship1{
-    height: 250px;
     background-color: var(--dark-bg-transparent);
     border-radius: 15px;
-    text-align: center;
+    padding-bottom: 10px;
 }
 
 .internshipTitle{
@@ -349,13 +348,40 @@ header a:hover{
     font-family: 'Raleway';
     font-style: italic;
     font-weight: normal;
+    font-size: 20px;
 }
 
 .internship2{
     background-color: var(--dark-bg-transparent);
     border-radius: 15px;
-    text-align: center;
 }
+
+.internshipText{
+    color: var(--yellow-color);
+    text-align: left;
+    font-family: 'Lusitana';
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: lighter !important;
+    font-size: 15px;
+}
+
+.intPython{
+    border: 3px solid var(--light-blue);
+    color: var(--yellow-color);
+    text-align: center;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
 
 .internshipBtn{
     position: relative;
@@ -370,6 +396,7 @@ header a:hover{
     margin-top: 10px;
     font-family: 'Raleway';
     font-weight: normal;
+    
 }
 
 .internshipBtn:hover{
@@ -419,6 +446,7 @@ header a:hover{
     color: var(--yellow-color);
     font-size: 40px;
 }
+
 
 
 
