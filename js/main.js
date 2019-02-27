@@ -44,5 +44,51 @@ $(document).ready(function(){
         }, 1000);
     });
 
+    //Scroll Reveal
+    const sr = ScrollReveal();
+
+    sr.reveal('.background-headshot', {
+        delay: '100',
+        distance: '50px',
+        reset: true
+    });
+
+    sr.reveal('.name', {
+        distance: '50px',
+        delay: '250',
+    });
+
+    sr.reveal('.headInfo', {
+        distance: '50px',
+        delay: '500',
+    });
+
+    sr.reveal('.resume', {
+        distance: '50px',
+        delay: '600',
+    });
+
+    sr.reveal('.pagebreak1', {
+        distance: '50px',
+    });
+
+    sr.reveal('.menuBackground', {
+        origin: 'right',
+        distance: '50px',
+        delay: '700',
+    });
+
+    sr.reveal('#open-menu', {
+        origin: 'right',
+        distance: '50px',
+        delay: '750',
+    });
+
+    sr.reveal('.background1', {
+        delay: '1000',
+        duration: '1000'
+    });
+
+
 
 });
