@@ -1,43 +1,161 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Fontawesome -->
-    
-    
-    <title>JohnHenry Ward | Home</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-1 text-center">JH's portfolio</h1>
-      </div>
-      
-      <div class="display-4 text-center">Coming Soon...</div>
+  <!-- Internal CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon1.png" type="image/x-icon">
+
+  <title>JohnHenry Ward</title>
+</head>
+<header>
+  <div id="home"></div>
+
+  <div class="background1" id="background1"></div>
+
+  <div class="menuBackground"></div>
+  <i class="fas fa-bars" id="open-menu" title="Open Menu"></i>
+
+  <ul class="menu">
+    <li><i class="fas fa-times" id="closeMenu" title="Close Menu"></i></li>
+    <li><a href="#home" class="scroll">home</a></li>
+    <li><a href="#about" class="scroll">about</a></li>
+    <li><a href="#experience" class="scroll">experience</a></li>
+    <li><a href="#projects" class="scroll">projects</a></li>
+    <li><a href="#contact" class="scroll">contact</a></li>
+  </ul>
+
+  <div class="background-headshot">
+    <!-- <img src="" alt=""> headshot goes here eventually-->
+  </div>
+
+  <div class="homeInfo">
+    <h1 class="name">JohnHenry Ward</h1>
+    <h4 class="headInfo">
+      <a href="mailto:johnhenry514@gmail.com">
+        johnhenry514@gmail.com
+      </a>
+      <br>
+      <a href="tel:+14253454792">
+        425-345-4792
+      </a>
+    </h4>
+    <a href="#" target="_blank"> <!-- PDF Link to Resume.pdf goes here-->
+      <button class="resume">Resume.pdf</button>
+    </a>
+  </div>
+
+  <img src="images/pagebreak.svg" class="pagebreak1">
+  <img src="images/pagebreak1.svg" class="pagebreak2">
+
+  <div id="particles-js"></div>
+</header>
+
+<body>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="header">
+      <i class="far fa-user" id="aboutIcon"></i>
+      <h4 class="aboutTitle">About</h4>
     </div>
 
+    <div class="aboutMain">
+      <div class="aboutPersonal">
+        <h6 class="aboutPersonalTitle">
+          Who Am I?
+        </h6>
+        <p class="aboutPersonalText"></p>
+      </div>
+
+      <div class="aboutTechnical">
+        <h6 class="aboutTechnicalTitle">
+          Life with CS
+        </h6>
+        <p class="aboutTechnicalText"></p>
+      </div>
+
+      <div class="skills">
+        <div class="languages">
+          <h6>Languages</h6>
+          <div class="java">
+            <p>Java</p>
+          </div>
+          <div class="javaScript">
+            <p>JavaScript</p>
+          </div>
+        </div>
+
+        <div class="frameworks">
+          <h6>Frameworks/Libraries</h6>
+        </div>
+
+        <div class="tools">
+          <h6>Other Tools</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="header">
+      <i class="far fa-building" id="experienceIcon"></i>
+      <h4 class="experienceTitle">Experience</h4>
+    </div>
+    <div class="experienceMain">
+      <div class="internship1">
+        <h4 class="internshipTitle">Internship 1 at Company A</h4>
+        <h6 class="internshipSubTitle">Summer 2019</h6>
+        <p class="internshipText"></p>
+        <button class="internshipBtn"><a>Read More</a></button>
+      </div>
+      <div class="internship2">
+        <h4 class="internshipTitle">Internship 2 at Company B</h4>
+        <h6 class="internshipSubTitle">Summer 2020</h6>
+        <p class="internshipText"></p>
+        <button class="internshipBtn"><a>Read More</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="header">
+        <i class="far fa-lightbulb" id="projectsIcon"></i>
+        <h4 class="projectsTitle">Projects</h4>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="contact" id="contact">
+      <div class="header">
+          <i class="far fa-envelope" id="contactIcon"></i>
+          <h4 class="contactTitle">Contact</h4>
+      </div>
+    </section>
 
 
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
+<footer>
+  <p class="copyright">Website built & designed with ❤️ by Me! JohnHenry Ward :)</p>
+</footer>
 
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-  </body>
 </html>
