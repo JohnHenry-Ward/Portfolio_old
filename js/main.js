@@ -50,7 +50,6 @@ $(document).ready(function(){
     sr.reveal('.background-headshot', {
         delay: '100',
         distance: '50px',
-        reset: true
     });
 
     sr.reveal('.name', {
