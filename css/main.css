@@ -447,6 +447,74 @@ header a:hover{
     font-size: 40px;
 }
 
+.contactMain{
+    background-color: rgba(50, 140, 193, 0.5);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    padding-top: 20px;
+    
+}
+
+.contactName{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B3C5D;
+    border: none;
+    color: var(--yellow-color);
+}
+
+.contactSubject{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B3C5D;
+    border: none;
+    margin-bottom: 0;
+}
+
+.contactEmail{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B3C5D;
+    border: none;
+}
+
+.contactMsg{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0B3C5D;
+    border: none;
+}
+
+.contactBtn{
+    color: var(--yellow-color);
+    background-color: #0B3C5D;
+    border: none;
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    color: var(--yellow-color);
+    opacity: 0.5;
+    font-family: 'Raleway'
+}
 
 
 
