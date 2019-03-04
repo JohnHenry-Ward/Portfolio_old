@@ -22,6 +22,12 @@ header{
     height: 600px;
 }
 
+#home{
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+}
+
 .background1{
     background-image: linear-gradient(#0B3C5D, #1D2732);
     width: 100%;
@@ -39,9 +45,14 @@ header{
     margin-right: auto;
     margin-top: 30px;
     border-radius: 50%;
-    background-color: #D9B310;
+    /* background-color: #D9B310; */
     position: relative;
     box-shadow: 0.3px 0.3px 50px black;
+}
+
+.background-headshot img{
+    width: 100%;
+    height: 100%;
 }
 
 .pagebreak1{
@@ -250,6 +261,12 @@ header a:hover{
     display: inline-block;
 }
 
+.innerSkill{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skills h6{
     padding-top: 10px;
     font-family: 'Raleway';
@@ -267,7 +284,7 @@ header a:hover{
     padding-right: 6px;
     padding-top: 0;
     padding-bottom: 0;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 15px;
     height: 30px;
     font-size: 15px;
@@ -291,6 +308,7 @@ header a:hover{
     font-weight: lighter;
     margin-bottom: 4px;
     margin-top: 4px;
+    margin-left: 2px;
 }
 
 .frameworks{
@@ -399,7 +417,7 @@ header a:hover{
     padding-right: 6px;
     padding-top: 0;
     padding-bottom: 0;
-    margin-left: 8px;
+    margin-left: 2px;
     border-radius: 15px;
     height: 30px;
     font-size: 15px;
