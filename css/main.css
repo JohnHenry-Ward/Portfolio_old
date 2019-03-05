@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    height: 600px;
+    height: 610px;
 }
 
 #home{
@@ -93,6 +93,17 @@ header{
     position: relative;
     padding-top: 5px;
     font-size: 20px;
+}
+
+.githubHeader{
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.githubHeader:hover{
+    font-weight: normal;
+    opacity: 1;
 }
 
 .resume{
@@ -181,15 +192,6 @@ header a:hover{
     cursor: pointer;
 }
 
-.copyright{
-    color: var(--yellow-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-top: 500px;
-    bottom: 0;
-    /* background-color: green; */
-}
-
 /* About */
 
 .about{
@@ -222,7 +224,7 @@ header a:hover{
 
 .aboutPersonal{
     background-color: var(--dark-bg-transparent);
-    height: 450px;
+    height: 475px;
     border-radius: 15px;
     padding-top: 10px;
     font-family: 'Raleway';
@@ -234,9 +236,15 @@ header a:hover{
     font-weight: bolder;
 }
 
+.aboutPersonalText, .aboutTechnicalText{
+    color: var(--yellow-color);
+    margin: 0 10px;
+    font-size: 12px;
+}
+
 .aboutTechnical{
     background-color: var(--dark-bg-transparent);
-    height: 450px;
+    height: 475px;
     border-radius: 15px;
     padding-top: 10px;
     font-family: 'Raleway';
@@ -379,7 +387,15 @@ header a:hover{
     background-color: var(--dark-bg-transparent);
     border-radius: 15px;
     padding-bottom: 10px;
-    height: 250px;
+}
+
+.internship2 a{
+    list-style-type: none;
+    color: var(--yellow-color);
+}
+
+.internship2 a:hover{
+    text-decoration: none;
 }
 
 .internshipText{
@@ -427,7 +443,7 @@ header a:hover{
 
 .internshipBtn{
     position: relative;
-    color: var(--yellow-color);
+    color: var(--yellow-color) !important;
     background-color: #1D2732;
     border: none;
     border-radius: 10px;
@@ -439,8 +455,6 @@ header a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    
 }
 
 .internshipBtn:hover{
@@ -470,6 +484,113 @@ header a:hover{
     font-size: 40px;
 }
 
+.projectMain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.project1{
+    background-color: var(--dark-bg-transparent);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.project1Img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.projectText{
+    color: var(--yellow-color);
+    text-align: left;
+    font-family: 'Lusitana';
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: lighter !important;
+    font-size: 15px;
+}
+
+.projectLang1{
+    border: 3px solid var(--light-blue);
+    color: var(--yellow-color);
+    text-align: center;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.projectLang{
+    border: 3px solid var(--light-blue);
+    color: var(--yellow-color);
+    text-align: center;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 2px;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.projectBtn{
+    position: relative;
+    color: var(--yellow-color) !important;
+    background-color: #1D2732;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectBtn a{
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+.projectBtn a:visited{
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+.projectBtn:hover{
+    cursor: pointer;
+    border: 2px solid var(--yellow-color);
+}
+
+.project2{
+    background-color: var(--dark-bg-transparent);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.projectTitle{
+    color: var(--yellow-color);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
 /* Contact */
 
 .contact{
@@ -497,46 +618,32 @@ header a:hover{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
-}
-
-form{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-row-gap: 20px;
     padding-top: 20px;
-    
+    border-radius: 10px;
 }
 
-.contactName{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #0B3C5D;
-    border: none;
-    color: var(--yellow-color);
-}
-
-.contactSubject{
+.contactName, .contactEmail, .contactSubject, .contactMsg{
     margin-left: auto;
     margin-right: auto;
     background-color: #0B3C5D;
     border: none;
     margin-bottom: 0;
-}
-
-.contactEmail{
+    color: var(--yellow-color);
+    height: 50px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0B3C5D;
-    border: none;
+    display: block;
+    padding-left: 15px;
+    border-radius: 10px;
 }
 
 .contactMsg{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #0B3C5D;
-    border: none;
-}
+    height: 150px;
+    padding-top: 10px;
+} 
 
 .contactBtn{
     color: var(--yellow-color);
@@ -545,19 +652,52 @@ form{
     width: 110px;
     height: 35px;
     text-align: center;
-    vertical-align: center;
     margin-top: 10px;
     font-family: 'Raleway';
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.contactBtn:hover{
+    border: 2px solid var(--yellow-color);
 }
 
 input::placeholder{
-    padding-left: 10px;
     color: var(--yellow-color);
     opacity: 0.5;
-    font-family: 'Raleway'
+    font-family: 'Raleway';
+}
+
+.contactMsg::placeholder{
+    color: var(--yellow-color);
+    opacity: 0.5;
+    font-family: 'Raleway';
+}
+
+/* Footer */
+
+.copyright{
+    color: var(--yellow-color);
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.footerLinks{
+    text-align: center;
+}
+
+.fa-github, .fa-linkedin-in, .fa-twitter{
+    color: var(--yellow-color);
+    margin: 1px 20px;
+}
+
+.footerLinks a{
+    text-decoration: none;
 }
 
 

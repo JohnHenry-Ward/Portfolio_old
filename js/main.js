@@ -67,6 +67,11 @@ $(document).ready(function(){
         delay: '600',
     });
 
+    sr.reveal('#githubHeader', {
+        distance: '50px',
+        delay: '550',
+    });
+
     sr.reveal('.pagebreak1', {
         distance: '50px',
     });

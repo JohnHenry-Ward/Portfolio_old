@@ -52,6 +52,9 @@
         425-345-4792
       </a>
     </h4>
+    <a href="https://github.com/JohnHenry-Ward" target="_blank" class="githubHeader" title="Github">
+        <i class="fab fa-github" id="githubHeader"></i>
+    </a> <br>
     <a href="#" target="_blank"> <!-- PDF Link to Resume.pdf goes here-->
       <button class="resume">Resume.pdf</button>
     </a>
@@ -77,14 +80,21 @@
         <h6 class="aboutPersonalTitle">
           Who Am I?
         </h6>
-        <p class="aboutPersonalText"></p>
+        <p class="aboutPersonalText">
+          Hello! I am JohnHenry, and I'd like to first thank you for visiting at my website. I'm doing this so that you can learn a little bit more about me. I am from Seattle, Washington and am currently attending Western Washington Univeristy where I am studying Computer Science. You can read more about my experience with CS "Life in CS" column. <br>
+          I enjoy watching and playing soccer and football, but my favorite sport is baseball. I played baseball from about the age of 5 up through High School. Being from Seattle, I'm a big fan of the Mariners, Sounders, Seahawks, and Huskies, even though I don't attend UW.  <br>
+          I also love wataching movies, and I am extremely passionate about Marvel movies. I'll go see them the night they come out in theaters, and really enjoy talking about what they'll do next and how intricate the Marvel Cinematic Universe is. Apart from movies, some of my favorite TV shows are New Girl, Bob's Burgers, American Horror Story, and Game of Thrones. <br>
+          I would really love to travel in the future, as I haven't done much travelling so far in my life. Some places that I'm most interested in visiting are Japan, Australia, France, and Scandanavia.
+        </p>
       </div>
 
       <div class="aboutTechnical">
         <h6 class="aboutTechnicalTitle">
           Life in CS
         </h6>
-        <p class="aboutTechnicalText"></p>
+        <p class="aboutTechnicalText">
+          words words words
+        </p>
       </div>
 
       <div class="skills">
@@ -147,18 +157,19 @@
           <p class="intLang">PHP</p>
           <p class="intLang">SQL</p>
         </div>
-        <button class="internshipBtn"><a>Read More</a></button>
+        <button class="internshipBtn"><a hreef="intern1.html">Read More</a></button>
       </div>
       <div class="internship2">
         <h4 class="internshipTitle">Currently Searching for Internships</h4>
-        <h6 class="internshipSubTitle">2019 - 2020</h6>
+        <h6 class="internshipSubTitle">2020+</h6>
         <p class="internshipText">
           I am not currently looking for an internship for Summer 2019, but will be focusing on Summer 2020 to land an internship. By then I should be admitted to the Computer Science major and have finished my Junior year at WWU. <br> <br>
-          At an internship, I hope to be a contributing member to a team, learn what life is like in the industry, and continue to develop my CS and problem solving skills. 
+          At an internship, I hope to be a contributing member to a team, learn what life is like in the industry, and continue to develop my CS and problem solving skills. If I would also be able to learn about a new language or framework on the job, that would be very interesting to me and a fun challenge. <br> <br>
+          If you or someone you know is looking for possible interns in a Computer Science related field, feel free to reach out to me, even if you're not sure if it'd be an exact fit for my experience or interests, I'd still be interested in seeing what kind of work they'd have me do.
         </p>
         <div class="internshipLang">
         </div>
-        <!-- <button class="internshipBtn"><a>Read More</a></button> -->
+        <button class="internshipBtn"><a href="#contact" class="scroll">Contact Me</a></button>
       </div>
     </div>
   </section>
@@ -169,9 +180,33 @@
         <i class="far fa-lightbulb" id="projectsIcon"></i>
         <h4 class="projectsTitle">Projects</h4>
     </div>
+    <div class="projectMain">
+      <div class="project1">
+        <img src="images/project1Main.png" class="project1Img">
+        <div class="projectTitle">Portfolio Website</div>
+        <p class="projectText">
+          My first large scale project was building this very portfolio website. I used the HTMl and CSS basics from my first Web Development class, along with JavaScript, PHP, and SQL to make the website more interesting and practical. <br><br>
+          Although I learned about a few frameworks, I decided not to use any for CSS formatting, and only used the jQuery library for some simple animations. The contact form uses PHP and SQL to send information to a database and send an email to me.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang1">HTML5</p>
+          <p class="projectLang">CSS3</p>
+          <p class="projectLang">JavaScript</p>
+          <p class="projectLang">PHP</p>
+          <p class="projectLang">SQL</p>
+        </div>
+        <button class="projectBtn"><a href="project1.html">Read More</a></button>
+      </div>
+      <div class="project2">
+        <div class="projectTitle">Project 2</div>
+        <p class="projectText"></p>
+        <div class="projectLanguages">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Contact -->
   <section class="contact" id="contact">
       <div class="header">
           <i class="far fa-envelope" id="contactIcon"></i>
@@ -182,7 +217,10 @@
           <input type="text" name="name" placeholder="Name" class="contactName">
           <input type="text" name="subject" placeholder="Subject" class="contactSubject">
           <input type="text" name="email" placeholder="Email" class="contactEmail">
-          <input type="text" name="message" placeholder="Message..." class="contactMsg">
+          <!-- <input type="text" name="message" placeholder="Message..." class="contactMsg"> -->
+
+          <textarea name="message" class="contactMsg" cols="30" rows="10" placeholder="Message..."></textarea>
+
           <input type="submit" value="Send Now" class="contactBtn">
         </form>
       </div>
@@ -197,7 +235,18 @@
 </body>
 
 <footer>
-  <p class="copyright">Website built & designed with ❤️ by Me! JohnHenry Ward :)</p>
+  <p class="copyright">Website built & designed by Me! JohnHenry Ward</p>
+  <p class="footerLinks">
+    <a href="https://github.com/JohnHenry-Ward" target="_blank" class="githubFooter">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/johnhenry-ward-456687167/" target="_blank" class="linkedInFooter">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://twitter.com/JohnHenry_3000" target="_blank" class="twitterFooter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </p>
 </footer>
 
 </html>
