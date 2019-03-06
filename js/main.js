@@ -47,6 +47,8 @@ $(document).ready(function(){
     //Scroll Reveal
     const sr = ScrollReveal();
 
+    //Homepage Reveal
+
     sr.reveal('.background-headshot', {
         delay: '100',
         distance: '50px',
@@ -92,6 +94,36 @@ $(document).ready(function(){
         delay: '1000',
         duration: '1000'
     });
+
+    
+    //About Reveal (might be a bit too much)
+
+    // sr.reveal('#aboutIcon', {
+    //     origin: 'left',
+    //     distance: '50px',
+    //     delay: '1000'
+    // });
+
+    // sr.reveal('.aboutTitle', {
+    //     origin: 'right',
+    //     distance: '50px',
+    //     delay: '1000'
+    // });
+    
+    // sr.reveal('.aboutPersonal', {
+    //     distance: '50px',
+    //     delay: '1000'
+    // });
+
+    // sr.reveal('.aboutTechnical', {
+    //     distance: '50px',
+    //     delay: '1050'
+    // });
+
+    // sr.reveal('.skills', {
+    //     distance: '50px',
+    //     delay: '1100'
+    // });
 
 
 
