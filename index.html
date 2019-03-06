@@ -148,7 +148,7 @@
           I've taken Computer Programming I and II, Data Structures, and am currently enrolled in a Web Development course. I will soon be taking Computer Systems along with Formal Languages and Functional Programming. <br> <br>
           I've also taken Calculus I and II, and Linear Algebra and will soon be taking Probability and Statistical Inference.
         </p>
-        <div class="internshipLang">
+        <!-- <div class="internshipLang">
           <p class="intLang1">Java</p>
           <p class="intLang">HTML5</p>
           <p class="intLang">CSS3</p>
@@ -156,8 +156,8 @@
           <p class="intLang">Python</p>
           <p class="intLang">PHP</p>
           <p class="intLang">SQL</p>
-        </div>
-        <button class="internshipBtn"><a hreef="intern1.html">Read More</a></button>
+        </div> -->
+        <button class="internshipBtn" id="tempBtn"><a href="exp1.html" target="_blank">Read More</a></button>
       </div>
       <div class="internship2">
         <h4 class="internshipTitle">Currently Searching for Internships</h4>
@@ -195,11 +195,13 @@
           <p class="projectLang">PHP</p>
           <p class="projectLang">SQL</p>
         </div>
-        <button class="projectBtn"><a href="project1.html">Read More</a></button>
+        <button class="projectBtn"><a href="project1.html" target="_blank">Read More</a></button>
       </div>
       <div class="project2">
-        <div class="projectTitle">Project 2</div>
-        <p class="projectText"></p>
+        <div class="projectTitle">More Projects to Come</div>
+        <p class="projectText">
+          I have a few projects in mind to practice my skills in Computer Science, and will update this website as those projects become presentable. Some projects I am most interested in are building a twitter or reddit bot, a mood tracker app, an app to help fill out March Madness brackets, and a few more. 
+        </p>
         <div class="projectLanguages">
         </div>
       </div>
@@ -214,12 +216,10 @@
       </div>
       <div class="contactMain">
         <form action="">
-          <input type="text" name="name" placeholder="Name" class="contactName">
-          <input type="text" name="subject" placeholder="Subject" class="contactSubject">
-          <input type="text" name="email" placeholder="Email" class="contactEmail">
-          <!-- <input type="text" name="message" placeholder="Message..." class="contactMsg"> -->
-
-          <textarea name="message" class="contactMsg" cols="30" rows="10" placeholder="Message..."></textarea>
+          <input type="text" name="name" placeholder="Name" class="contactName" required>
+          <input type="text" name="subject" placeholder="Subject" class="contactSubject" required>
+          <input type="text" name="email" placeholder="Email" class="contactEmail" required>
+          <textarea name="message" class="contactMsg" cols="30" rows="10" placeholder="Message..." required></textarea>
 
           <input type="submit" value="Send Now" class="contactBtn">
         </form>
@@ -237,14 +237,14 @@
 <footer>
   <p class="copyright">Website built & designed by Me! JohnHenry Ward</p>
   <p class="footerLinks">
-    <a href="https://github.com/JohnHenry-Ward" target="_blank" class="githubFooter">
-      <i class="fab fa-github"></i>
+    <a href="https://github.com/JohnHenry-Ward" target="_blank" title="Github">
+      <i class="fab fa-github" id="githubFooter"></i>
     </a>
-    <a href="https://www.linkedin.com/in/johnhenry-ward-456687167/" target="_blank" class="linkedInFooter">
-      <i class="fab fa-linkedin-in"></i>
+    <a href="https://www.linkedin.com/in/johnhenry-ward-456687167/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin-in" id="linkedinFooter"></i>
     </a>
-    <a href="https://twitter.com/JohnHenry_3000" target="_blank" class="twitterFooter">
-      <i class="fab fa-twitter"></i>
+    <a href="https://twitter.com/JohnHenry_3000" target="_blank" title="Twitter">
+      <i class="fab fa-twitter" id="twitterFooter"></i>
     </a>
   </p>
 </footer>

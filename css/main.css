@@ -457,6 +457,10 @@ header a:hover{
     margin-right: auto;
 }
 
+#tempBtn{
+    margin-top: 60px;
+}
+
 .internshipBtn:hover{
     cursor: pointer;
     border: 2px solid var(--yellow-color);
@@ -581,6 +585,7 @@ header a:hover{
     background-color: var(--dark-bg-transparent);
     border-radius: 10px;
     padding-bottom: 10px;
+    padding-top: 200px;
 }
 
 .projectTitle{
@@ -620,6 +625,7 @@ header a:hover{
     padding-bottom: 20px;
     padding-top: 20px;
     border-radius: 10px;
+
 }
 
 .contactName, .contactEmail, .contactSubject, .contactMsg{
@@ -637,7 +643,9 @@ header a:hover{
     margin-right: auto;
     display: block;
     padding-left: 15px;
+    padding-right: 15px;
     border-radius: 10px;
+    outline: none;
 }
 
 .contactMsg{
@@ -694,6 +702,18 @@ input::placeholder{
 .fa-github, .fa-linkedin-in, .fa-twitter{
     color: var(--yellow-color);
     margin: 1px 20px;
+}
+
+#githubFooter:hover{
+    color: #6cc644;
+}
+
+#linkedinFooter:hover{
+    color: #0077b5;
+}
+
+#twitterFooter:hover{
+    color: #38a1f3;
 }
 
 .footerLinks a{
