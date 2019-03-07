@@ -119,6 +119,7 @@ header{
     margin-top: 10px;
     font-family: 'Raleway';
     font-weight: normal;
+    outline: none;
     /* box-shadow: 1px 1px 5px black; */
 }
 
@@ -393,7 +394,7 @@ header a:hover{
     font-size: 15px;
 }
 
-.intLang1{
+/* .intLang1{
     border: 3px solid var(--light-blue);
     color: var(--yellow-color);
     text-align: center;
@@ -423,7 +424,7 @@ header a:hover{
     height: 30px;
     font-size: 15px;
     font-weight: lighter;
-}
+} */
 
 
 .internshipBtn{
@@ -440,6 +441,8 @@ header a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    outline: none;
+
 }
 
 .internshipBtn a{
@@ -549,6 +552,7 @@ header a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    outline: none;
 }
 
 .projectBtn a{
@@ -652,6 +656,7 @@ header a:hover{
     margin-right: auto;
     display: block;
     border-radius: 10px;
+    outline: none;
 }
 
 .contactBtn:hover{
