@@ -228,6 +228,7 @@ header a:hover{
     border-radius: 15px;
     padding-top: 10px;
     font-family: 'Raleway';
+    padding-bottom: 10px;
 }
 
 .aboutPersonalTitle{
@@ -711,7 +712,7 @@ input::placeholder{
 }
 
 
-@media(min-width: 1920px){
+@media(max-width: 1920px){
 
     #home{
         padding-top: 0;
@@ -726,7 +727,7 @@ input::placeholder{
     }
 
     .background-headshot{
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .name{
@@ -741,6 +742,46 @@ input::placeholder{
         width: 150px;
         height: 50px;
         font-size: 20px;
+    }
+
+    /* About */
+
+    .aboutMain{
+        grid-column-gap: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .aboutTechnicalTitle, .aboutPersonalTitle, .skills h6{
+        font-size: 1.3em;
+    }
+
+    .aboutPersonalText, .aboutTechnicalText{
+        font-size: 1em;
+    }
+
+    /* Experience */
+
+    .experienceMain{
+        grid-column-gap: 250px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .internshipText{
+        font-size: 1em;
+    }
+
+    /* Projects */
+
+    .projectMain{
+        grid-column-gap: 250px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .projectText{
+        font-size: 1em;
     }
  
 }
