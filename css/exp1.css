@@ -1,0 +1,115 @@
+/* JohnHenry Ward */
+/* johnhenry514@gmail.com */
+
+@import 'https://fonts.googleapis.com/css?family=Lusitana|Raleway';
+
+:root{
+    --yellow-color: #D9B310;
+    --dark-bg: #2F3234;
+    --dark-bg-transparent: rgba(47, 50, 52, 0.5);
+    --light-blue: #328CC1;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#0B3C5D, #1D2732);
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: var(--yellow-color);
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.subtitle{
+    color: var(--yellow-color);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+}
+
+header{
+    line-height: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.images{
+    background-color: var(--dark-bg-transparent);
+    /* height: 500px; */
+    border-radius: 10px;
+}
+
+.rightCol{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+}
+
+.text{
+    background-color: var(--dark-bg-transparent);
+    /* height: 500px; */
+    border-radius: 10px;
+}
+
+.text h4{
+    color: var(--yellow-color);
+    font-family: 'Raleway';
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.text p{
+    color: var(--yellow-color);
+    font-family: 'Lusitana';
+    margin: 5px 20px;
+    font-size: 0.9em;
+}
+
+.image1, .image2, .image3{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo{
+    background-color: var(--dark-bg-transparent);
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 80%;
+    margin: 40px auto;
+    display: block;
+}
+
+.images img{
+    width: 80%;
+    display: block;
+    margin: 50px auto;
+}
+
+.images>a>img{
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.images>a>img:hover{
+    filter: blur(1px) brightness(80%);
+    cursor: pointer;
+}
+
