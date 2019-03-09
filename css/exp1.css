@@ -17,7 +17,8 @@
 body{
     background: linear-gradient(#0B3C5D, #1D2732);
     /* overflow: hidden; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
+    height: 100%; */
 }
 
 .title{
@@ -37,7 +38,7 @@ header{
     line-height: 10px;
 }
 
-main{
+.main{
     display: grid;
     grid-template-columns: 60% 40%;
     grid-column-gap: 10px;
@@ -112,4 +113,6 @@ main{
     filter: blur(1px) brightness(80%);
     cursor: pointer;
 }
+
+
 
