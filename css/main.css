@@ -228,6 +228,7 @@ header a:hover{
     border-radius: 15px;
     padding-top: 10px;
     font-family: 'Raleway';
+    padding-bottom: 10px;
 }
 
 .aboutPersonalTitle{
@@ -240,6 +241,7 @@ header a:hover{
     color: var(--yellow-color);
     margin: 0 10px;
     font-size: 12px;
+    /* font-family: 'Lusitana'; */
 }
 
 .aboutTechnical{
@@ -248,7 +250,6 @@ header a:hover{
     border-radius: 15px;
     padding-top: 10px;
     font-family: 'Raleway';
-    font-weight: bolder;
 }
 
 .aboutTechnicalTitle{
@@ -393,39 +394,6 @@ header a:hover{
     font-weight: lighter !important;
     font-size: 15px;
 }
-
-/* .intLang1{
-    border: 3px solid var(--light-blue);
-    color: var(--yellow-color);
-    text-align: center;
-    display: inline-block;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 20px;
-    border-radius: 15px;
-    height: 30px;
-    font-size: 15px;
-    font-weight: lighter;
-}
-
-.intLang{
-    border: 3px solid var(--light-blue);
-    color: var(--yellow-color);
-    text-align: center;
-    display: inline-block;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 2px;
-    border-radius: 15px;
-    height: 30px;
-    font-size: 15px;
-    font-weight: lighter;
-} */
-
 
 .internshipBtn{
     position: relative;
@@ -711,6 +679,8 @@ input::placeholder{
 }
 
 
+/* Media Queries */
+
 @media(min-width: 1920px){
 
     #home{
@@ -722,25 +692,79 @@ input::placeholder{
     }
 
     header{
-        height: 1200px;
+        height: 100vh;
     }
 
     .background-headshot{
-        margin-top: 200px;
+        margin-top: 150px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .pagebreak1{
+        top: -100px;
     }
 
     .name{
-        font-size: 4em;
+        font-size: 6em;
     }
 
     .headInfo{
-        font-size: 1.8em;
+        font-size: 2.8em;
+    }
+
+    .githubHeader{
+        font-size: 2.2em;
     }
 
     .resume{
         width: 150px;
         height: 50px;
         font-size: 20px;
+    }
+
+    .background1{
+        height: 80vh;
+    }
+
+    /* About */
+
+    .aboutMain{
+        grid-column-gap: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .aboutTechnicalTitle, .aboutPersonalTitle, .skills h6{
+        font-size: 1.3em;
+    }
+
+    .aboutPersonalText, .aboutTechnicalText{
+        font-size: 1em;
+    }
+
+    /* Experience */
+
+    .experienceMain{
+        grid-column-gap: 250px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .internshipText{
+        font-size: 1em;
+    }
+
+    /* Projects */
+
+    .projectMain{
+        grid-column-gap: 250px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .projectText{
+        font-size: 1em;
     }
  
 }
@@ -801,5 +825,30 @@ input::placeholder{
 
     .project2{
         margin-top: 0;
+    }
+
+    @media(max-width:375px){
+        .background1{
+            height: 400px;
+        }
+
+        .resume{
+            text-align: center;
+        }
+
+        .aboutMain{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .project2{
+            padding-top: 0;
+        }
+
+        .abtLang{
+            overflow: hidden;
+        }
+
+
     }
 }

@@ -103,7 +103,9 @@
           Life in CS
         </h6>
         <p class="aboutTechnicalText">
-          words words words
+          My only prior experience to Computer Science before college was one class I took my freshman year of high school. I don't remember the name of it, or really much of what we did, but I do remember codeing a pacman ghost that would follow the cursor around the screen. I remember really enjoying that class, but not really thinking much about computer science until the end of my senior year in high school. <br>
+          Before I signed up for my first quarter at WWU, I decided that I was going to give Computer Science a shot. I knew that it was a quickly growing field with lots of oprotunites and I wanted to be a part of that. During my first CS class, where we used Python, I was hooked. I loved solving all the problems that arise in CS, how big everything seems but how small it can be broken down to, and the endless opprotunity of createing something amazing and useful using Computer Science. <br>
+          Now I am in my second year at WWU, and am looking forward to all the interesting classes that are ahead of me. I can't wait to work with a team solving problems and creating programs. I also have some personal project ideas that I hope to work on, and look forward to the challenges that those may present. I'm very happy with my choice of becoming a Computer Scientist, and am always looking forward to my furture as one.
         </p>
       </div>
 
@@ -166,15 +168,6 @@
           I've also taken Calculus I and II, and Linear Algebra and will soon be taking Probability and Statistical
           Inference.
         </p>
-        <!-- <div class="internshipLang">
-          <p class="intLang1">Java</p>
-          <p class="intLang">HTML5</p>
-          <p class="intLang">CSS3</p>
-          <p class="intLang">JavaScript</p>
-          <p class="intLang">Python</p>
-          <p class="intLang">PHP</p>
-          <p class="intLang">SQL</p>
-        </div> -->
         <button class="internshipBtn" id="tempBtn"><a href="exp1.html" target="_blank">Read More</a></button>
       </div>
       <div class="internship2">
@@ -245,7 +238,7 @@
       <h4 class="contactTitle">Contact</h4>
     </div>
     <div class="contactMain">
-      <form action="index.php" method="POST">
+      <form action="form.php" method="POST">
         <input type="text" name="name" placeholder="Name" class="contactName" required>
         <input type="text" name="subject" placeholder="Subject" class="contactSubject" required>
         <input type="text" name="email" placeholder="Email" class="contactEmail" required>
@@ -276,29 +269,5 @@
 <script src="js/app.js"></script>
 <script src="js/scrollreveal.js"></script>
 <script src="js/main.js"></script>
-
-<?php
-    $connection = mysqli_connect('localhost', 'root', '');
-
-    mysqli_select_db($connection, 'jhportfoliocontact');
-
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-
-    $insert = "INSERT INTO contacttable(name, subject, email, message)values('$name', '$subject', '$email', '$message')";
-
-    if(mysqli_query($connection, $insert)){
-      $message = "Success!";
-      echo "<script type='text/javascript'>alert('$message');</script>";
-    }
-    else{
-      $message = "Failed!";
-      echo "<script type='text/javascript'>alert('$message');</script>";
-    }
-
-    // mysqli_close($connection);
-?>
 
 </html>
