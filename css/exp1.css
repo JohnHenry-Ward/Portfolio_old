@@ -16,9 +16,6 @@
 
 body{
     background: linear-gradient(#0B3C5D, #1D2732);
-    /* overflow: hidden; */
-    /* background-repeat: no-repeat;
-    height: 100%; */
 }
 
 .title{
@@ -48,7 +45,6 @@ header{
 
 .images{
     background-color: var(--dark-bg-transparent);
-    /* height: 500px; */
     border-radius: 10px;
 }
 
@@ -60,7 +56,6 @@ header{
 
 .text{
     background-color: var(--dark-bg-transparent);
-    /* height: 500px; */
     border-radius: 10px;
 }
 
