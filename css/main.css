@@ -867,6 +867,7 @@ input::placeholder{
     .resume{
         width: 8rem;
         font-size: 1.1em;
+        text-align: center !important;
     }
 
     .aboutMain{
