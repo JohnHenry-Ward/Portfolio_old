@@ -119,7 +119,6 @@ header{
     font-weight: normal;
     outline: none;
     font-size: 1em;
-    /* box-shadow: 1px 1px 5px black; */
 }
 
 .resume:hover{
@@ -694,6 +693,14 @@ input::placeholder{
         padding-left: 10px !important;
         padding-right: 10px !important;
         justify-content: center;
+    }
+
+    .internshipBtn, .projectBtn{
+        width: 120px;
+    }
+
+    .contactMain{
+        width: 90%;
     }
 }
 
