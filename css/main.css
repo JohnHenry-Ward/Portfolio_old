@@ -119,6 +119,8 @@ header{
     font-weight: normal;
     outline: none;
     font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .resume:hover{
