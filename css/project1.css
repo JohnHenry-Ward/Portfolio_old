@@ -164,6 +164,11 @@ main{
 }
 
 /* Media Queries */
+@media(max-width: 500px){
+    .imageGrid img{
+        height: 150px;
+    }
+}
 
 @media(max-width: 700px){
     .info{
@@ -171,8 +176,12 @@ main{
         grid-row-gap: 20px;
     }
 
-    .images img{
-        height: 100px;
+    .imageGrid{
+        grid-template-columns: 1fr;
+    }
+
+    .tools img{
+        margin: 10px 10px !important;
     }
 }
 
