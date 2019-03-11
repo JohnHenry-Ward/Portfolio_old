@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <!-- Internal CSS -->
   <link rel="stylesheet" href="css/main.css">
@@ -38,7 +39,7 @@
   </ul>
 
   <div class="background-headshot">
-    <img src="images/Mask Group 1.png"" alt="">
+    <img src="images/Mask Group 1.png">
   </div>
 
   <div class=" homeInfo">
@@ -82,9 +83,9 @@
           Who Am I?
         </h6>
         <p class="aboutPersonalText">
-          Hello! I am JohnHenry, and I'd like to first thank you for visiting at my website. I'm doing this so that you
+          Hello! I am JohnHenry, and I'd like to first thank you for visiting my website. I'm doing this so that you
           can learn a little bit more about me. I am from Seattle, Washington and am currently attending Western
-          Washington Univeristy where I am studying Computer Science. You can read more about my experience with CS
+          Washington Univeristy where I am studying Computer Science. You can read more about my experience with Computer Science in the
           "Life in CS" column. <br>
           I enjoy watching and playing soccer and football, but my favorite sport is baseball. I played baseball from
           about the age of 5 up through High School. Being from Seattle, I'm a big fan of the Mariners, Sounders,
@@ -94,7 +95,8 @@
           Cinematic Universe is. Apart from movies, some of my favorite TV shows are New Girl, Bob's Burgers, American
           Horror Story, and Game of Thrones. <br>
           I would really love to travel in the future, as I haven't done much travelling so far in my life. Some places
-          that I'm most interested in visiting are Japan, Australia, France, and Scandanavia.
+          that I'm most interested in visiting are Japan, Australia, France, and Scandanavia. <br>
+          Thank you again for taking the time to visit my website, and I hope you were able to learn a little more about me!
         </p>
       </div>
 
@@ -104,8 +106,8 @@
         </h6>
         <p class="aboutTechnicalText">
           My only prior experience to Computer Science before college was one class I took my freshman year of high school. I don't remember the name of it, or really much of what we did, but I do remember codeing a pacman ghost that would follow the cursor around the screen. I remember really enjoying that class, but not really thinking much about computer science until the end of my senior year in high school. <br>
-          Before I signed up for my first quarter at WWU, I decided that I was going to give Computer Science a shot. I knew that it was a quickly growing field with lots of oprotunites and I wanted to be a part of that. During my first CS class, where we used Python, I was hooked. I loved solving all the problems that arise in CS, how big everything seems but how small it can be broken down to, and the endless opprotunity of createing something amazing and useful using Computer Science. <br>
-          Now I am in my second year at WWU, and am looking forward to all the interesting classes that are ahead of me. I can't wait to work with a team solving problems and creating programs. I also have some personal project ideas that I hope to work on, and look forward to the challenges that those may present. I'm very happy with my choice of becoming a Computer Scientist, and am always looking forward to my furture as one.
+          Before I signed up for my first quarter at WWU, I decided that I was going to give Computer Science a shot. I knew that it was a quickly growing field with lots of opportunities to have an impact on soceity and I wanted to be a part of that. During my first CS class, where we used Python, I was hooked. I love solving all the problems that arise in CS, how big everything seems but how small it can be broken down to, and how there can be multiple solutions to a problem. <br>
+          Now I am in my second year at WWU, and am looking forward to all the fascinating classes that are ahead of me. I can't wait to work with a team solving problems and creating programs. I also have some personal project ideas that I hope to work on, and look forward to the challenges that those may present. I'm very happy with my choice of becoming a Computer Scientist, and am always looking forward to my furture as one.
         </p>
       </div>
 
@@ -163,10 +165,10 @@
           expect to graduate in the Spring of 2021, but it is possible that I graduate later in 2021 so I am able to
           finish all of my course work. <br> <br>
           I've taken Computer Programming I and II, Data Structures, and am currently enrolled in a Web Development
-          course. I will soon be taking Computer Systems along with Formal Languages and Functional Programming. <br>
-          <br>
+          course. I will soon be taking Computer Systems along with Formal Languages and Functional Programming.
           I've also taken Calculus I and II, and Linear Algebra and will soon be taking Probability and Statistical
-          Inference.
+          Inference. <br> <br>
+          Along with a CS degree, I plan on getting a Web Programmer Certificate throught the Internet Studies Center (ISC) at Western. The next class I am taking to get this certificate is Web Site Development and Management.
         </p>
         <button class="internshipBtn" id="tempBtn"><a href="exp1.html" target="_blank">Read More</a></button>
       </div>
@@ -205,7 +207,7 @@
           My first large scale project was building this very portfolio website. I used the HTMl and CSS basics from my
           first Web Development class, along with JavaScript, PHP, and SQL to make the website more interesting and
           practical. <br><br>
-          Although I learned about a few frameworks, I decided not to use any for CSS formatting, and only used the
+          Although I learned about a few frameworks, I decided not to rely too much on any for CSS formatting, and only used the
           jQuery library for some simple animations. The contact form uses PHP and SQL to send information to a database
           and send an email to me.
         </p>
@@ -265,9 +267,9 @@
 </footer>
 
 <script src="js/jquery-3.3.1.js"></script>
+<script src="js/scrollreveal.js"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
-<script src="js/scrollreveal.js"></script>
 <script src="js/main.js"></script>
 
 </html>
