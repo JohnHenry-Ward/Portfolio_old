@@ -408,7 +408,6 @@ header a:hover{
     margin-left: auto;
     margin-right: auto;
     outline: none;
-
 }
 
 .internshipBtn a{
@@ -417,7 +416,7 @@ header a:hover{
 }
 
 #tempBtn{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .internshipBtn:hover{
