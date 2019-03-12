@@ -1,7 +1,5 @@
 <?php
-    $connection = mysqli_connect('localhost', 'root', '');
-
-    mysqli_select_db($connection, 'jhportfoliocontact');
+    include("include/config.php");
 
     $name = $_POST['name'];
     $subject = $_POST['subject'];
@@ -12,16 +10,22 @@
 
     $to = 'johnhenry514@gmail.com';
     
-
-
     if(mysqli_query($connection, $insert)){
-      $message = "Success!";
       //mail('johnhenry514@gmail.com', $subject, $message);
-      echo "<script type='text/javascript'>alert('$message');</script>";
+      ?>
+      <script>
+        alert("Info added to database, email functionality will soon be added!")
+        window.location = "index.php";
+      </script>
+      <?php
     }
     else{
-      $message = "Failed!";
-      echo "<script type='text/javascript'>alert('$message');</script>";
+      ?>
+      <script>
+        alert("Sorry that didn't seem to work. Try again later");
+        window.location = "index.php";
+      </script>
+      <?php
     }
 
     // mysqli_close($connection);
