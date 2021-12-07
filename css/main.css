@@ -14,8 +14,16 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     background: linear-gradient(#0B3C5D, #1D2732);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header{
