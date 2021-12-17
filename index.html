@@ -6,59 +6,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138895316-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-138895316-1');
-  </script>
-
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
+  <!-- Bootstrap CSS, used for the page font -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <!-- Internal CSS -->
   <link rel="stylesheet" href="css/main.css">
 
-  <!-- Fontawesome -->
+  <!-- Fontawesome, used for the section icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon1.png" type="image/x-icon">
-
-  <style>
-      #tempDiv{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: 50vw;
-        background-color: rgba(47, 50, 52, 0.5);
-        border-radius: 15px;
-        padding-bottom: 10px;
-        margin-top: 30px;
-      }
-
-      #tempDiv h1{
-        text-align: center;
-        font-family: 'Raleway';
-        font-weight: bolder;
-        color: var(--yellow-color);
-        font-size: 40px;
-      }
-
-      #tempDiv p{
-        color: var(--yellow-color);
-        text-align: left;
-        font-family: 'Lusitana';
-        margin-left: 20px;
-        margin-right: 20px;
-        font-weight: lighter !important;
-        font-size: 15px;
-      }
-  </style>
 
   <title>JohnHenry Ward</title>
 </head>
@@ -74,7 +32,7 @@
     <li><i class="fas fa-times" id="closeMenu" title="Close Menu"></i></li>
     <li><a href="#home" class="scroll">home</a></li>
     <li><a href="#about" class="scroll">about</a></li>
-    <li><a href="#experience" class="scroll">experience</a></li>
+    <li><a href="#experiences" class="scroll">experience</a></li>
     <li><a href="#projects" class="scroll">projects</a></li>
   </ul>
 
@@ -103,14 +61,252 @@
   </div>
 
   <img src="images/pagebreak.svg" class="pagebreak1">
+  <img src="images/pagebreak1.svg" class="pagebreak2">
+  <img src="images/pagebreak.svg" class="pagebreak3">
+  <img src="images/pagebreak1.svg" class="pagebreak4">
+
   <div id="particles-js"></div>
 </header>
 
 <body>
-    <div id='tempDiv'>
-        <h1>Hi there!</h1>
-        <p>My portfolio is currently undergoing some maintenance at the moment! I've just graduated from WWU on December 11th, 2021 and am getting ready to apply for my first post grad job by updating this portfolio as well as finalizing my resume! If you'd like to see what projects I've done, you can head to my GitHub by clicking the GitHub icon above! Please check back in at a later time to see my finished portfolio. Thanks!</p>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="header">
+      <i class="far fa-user" id="aboutIcon"></i>
+      <h4 class="aboutTitle">About</h4>
     </div>
+
+    <div class="aboutMain">
+      <div class="aboutPersonal">
+        <h6 class="aboutPersonalTitle">
+          Who Am I?
+        </h6>
+        <p class="aboutPersonalText">
+          Hello! I am JohnHenry, and I'd like to first thank you for visiting my website. I'm doing this so that you
+          can learn a little bit more about me. I am from Seattle, Washington and have recently graduated from Western
+          Washington University where I received my B.S. in Computer Science and minored in Mathematics. <br><br>
+          A passion I have always had is sports. I grew up playing sports, and played baseball all up through my senior year in high school. I also love soccer and football, and have recently started watching hockey. Being from Seattle, my favorite teams are the Mariners, Sounders, Seahawks, and now the Kraken. <br><br>
+          One of my growing interests is movies. When I was younger I used to make short skits with my friends, and I think that that grew into an interest in how movies are made. I also think that Marvel movies, particularly the Marvel Cinematic Universe has helped grow this interest. My favorite Marvel movie is Captain America: Civil War, and my favorite movie I have ever seen is The Shining. I also love TV shows, and am always looking for an interesting new show to start. Some of my favorites have been Game of Thrones, New Girl, WandaVision, and American Horror Story. <br><br>
+          I hope you've been able to learn a little bit more about me, and I want to thank you again for taking the time to visit my personal website!
+        </p>
+      </div>
+
+      <div class="aboutTechnical">
+        <h6 class="aboutTechnicalTitle">
+          Life in CS
+        </h6>
+        <p class="aboutTechnicalText">
+          My only prior experience to Computer Science before college was one class I took my freshman year of high school. I don't remember the name of it, or really much of what we did, but I do remember coding a pacman ghost that would follow the cursor around the screen. I also remember really enjoying that class, but not really thinking much about computer science until the end of my senior year in high school. I think this one class I took freshman year sparked something for me that I didn't realize at the time.<br><br>
+          Before I signed up for my first quarter at WWU, I decided that I was going to give Computer Science a shot. I knew that it was a quickly growing field with lots of opportunities to have an impact on society and I wanted to be a part of that. After taking my first introductory class, I was hooked. I love solving all the problems that arise in CS, how big everything seems but how small it can be broken down to, and how there can be multiple solutions to a problem.<br><br>
+          Now as I have received my degree from WWU I am looking forward to all the opportunities ahead of me. I can't wait to work with a team solving problems and creating programs. I also have some personal project ideas that I hope to work on, and look forward to the challenges that those may present. I'm very happy with my choice of becoming a Computer Scientist, and am always looking forward to my future as one.
+        </p>
+      </div>
+
+      <div class="skills">
+        <div class="languages">
+          <h6>Languages</h6>
+          <div class="innerSkill">
+            <p class="abtLang">JavaScript</p>
+            <p class="abtLang">Java</p>
+            <p class="abtLang">Python</p>
+            <p class="abtLang">PHP</p>
+            <p class="abtLang">C</p>
+            <p class="abtLang">HTML</p>
+            <p class="abtLang">CSS</p>
+          </div>
+        </div>
+
+        <div class="tools">
+          <h6>Tools</h6>
+          <div class="innerSkill">
+            <p class="abtLang">Git</p>
+            <p class="abtLang">Node.js</p>
+            <p class="abtLang">Express.js</p>
+            <p class="abtLang">SQL</p>
+            <p class="abtLang">Agile Scrum</p>
+            <p class="abtLang">Emacs</p>
+            <p class="abtLang">GDB</p>
+            <p class="abtLang">Linux</p>
+            <p class="abtLang">Terminal</p>
+            <p class="abtLang">phpMyAdmin</p>
+            <p class="abtLang">VS Code</p>
+          </div>
+        </div>
+
+        <div class="interests">
+          <h6>Interests</h6>
+          <div class="innerSkill">
+            <p class="abtLang">Baseball</p>
+            <p class="abtLang">Movies</p>
+            <p class="abtLang">Marvel</p>
+            <p class="abtLang">Football</p>
+            <p class="abtLang">Video Games</p>
+            <p class="abtLang">Soccer</p>
+            <p class="abtLang">Board Games</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experiences" id="experiences">
+    <div class="header">
+      <i class="far fa-building" id="experienceIcon"></i>
+      <h4 class="experienceTitle">Experience</h4>
+    </div>
+    <div class="experienceMain">
+      <div class="experience">
+        <h4 class="experienceTitle">Western Washington University</h4>
+        <h6 class="experienceSubTitle">September 2017 - December 2021</h6>
+        <p class="experienceText">
+          I started attending Western Washington University in Bellingham, Washington in September 2017. I graduated in December 2021, receiving a Bachelors of Science in Computer Science and a minor in Mathematics. Some of my coursework includes Data Structures, Algorithm Analysis, Object Oriented Design, Web Development fundamentals, Operating Systems, Databases, and Networks. <br><br>
+          I enjoyed my time at WWU, and am thankful for all the people that I have met. I feel as though I became a part of a great community of students and professors, and have made many great connections at WWU. The 4+ years that I have called WWU and Bellingham home have been great, and I am so grateful that I was able to attend WWU and earn my undergraduate degree.
+        </p>
+      </div>
+      <div class="experience">
+        <h4 class="experienceTitle">Computer Science Peer Mentor</h4>
+        <h6 class="experienceSubTitle">September 2019 - June 2021</h6>
+        <p class="experienceText">
+          I decided to become a Peer Mentor at WWU the beginning of my junior year. I became a mentor to help students who, like me, had little to no experience in Computer Science at the beginning of their college career. I knew what it was like to not have any ideas on what to do, and feel a bit lost, so I wanted to do anything I could to help others in that situation. <br><br>
+          Becoming a Peer Mentor helped me be a better communicator as well as give me the opportunity to practice my CS fundamentals. Helping other students who are encountering problems that I once did allowed me to sharpen my skills and have those fundamentals well practiced. Becoming a Peer Mentor was one of the best decisions I made at WWU.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="header">
+      <i class="far fa-lightbulb" id="projectsIcon"></i>
+      <h4 class="projectsTitle">Projects</h4>
+    </div>
+    <div class="projectMain">
+      <div class="project">
+        <img src="images/caaml1.png" class="projectImg">
+        <div class="projectTitle">Instructor Efficiency Web Tool</div>
+        <p class="projectText">
+            This was my senior project at WWU. Me and a group of 3 other students worked with a professor to build a web tool that's goal was to build off of one of the professors previous projects. This previous project is called CAAML, and it uses machine learning to label parts of an audio file taken from a class room. These labels represent what is happening in the class room at that time. Some of the labels include lecture, instructor question, student question, group work, and silence. In total there are 9 possible labels. My team only needed a high level understanding of CAAML to build our web tool. <br><br>
+            Our tool's purpose is to take those output labelling and create different graphs and visualizations that can convey the data in different ways. Our goal was to give instructors using the tool different insights into how they utilize class time and how they can better conduct class time. We also were tasked with creating a way to record and upload audio from the browser, as well as store these output files. <br><br>
+            While weren't able to achieve all of the goals we set for ourselves, we did create 4 different visualizations, as well as learn a lot about the software development process. We used an agile scrum approach to our development, which included weekly meetings with the professor we were working with, as well as team meetings to stay on track. <br><br>
+            If you'd like to hear more about this project, you can contact me and I can share some more information. As this project is still on going with a new team at WWU, I am unable to share the GitHub repo publicly.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">JavaScript</p>
+          <p class="projectLang">Team Project</p>
+          <p class="projectLang">HTML</p>
+          <p class="projectLang">CSS</p>
+          <p class="projectLang">Node.js</p>
+          <p class="projectLang">Express.js</p>
+          <p class="projectLang">Agile Scrum</p>
+          <p class="projectLang">Web Design</p>
+          <p class="projectLang">Senior Project</p>
+        </div>
+        <button class="projectBtn"><a href="mailto:johnhenry514@gmail.com" target="_blank">Learn More</a></button>
+        <button class="projectBtn"><a href="" target="_blank">Demo (WIP)</a></button>
+
+      </div>
+      <div class="project">
+        <img src="images/buyBetter.PNG" class="projectImg">
+        <div class="projectTitle">Buy Better</div>
+        <p class="projectText">
+            This project was created for my Tech for Social Good class. The project's goal is to direct people who are shopping online on Amazon to order the same or similar product directly from the third part seller, or to buy a similar project in person at a local shop in their area. We wanted to have an easy way to learn about stores in our local area that could also have products we were shopping for on Amazon. We also wanted to show that it is possible to buy directly from a third party seller, rather than buy through Amazon. <br><br>
+            To use the tool, a user would copy the URL from an Amazon product page, and paste it into the tool. They would also input their zip code, or use their exact location, whichever they prefer. Once they submit the form, if our tool determines that this product is being sold by a third party seller, a pop up will show, giving users the option to see if that seller has their own website so that they can buy directly from them. After closing the pop up, a map is shown with markers for each store that could have the same or similar product that the user is looking for. The stores are also listed beneath the map, as well as their address. There are also news articles listed to give more context for out tool, and to show how Amazon, and online shopping as a whole, has a negative impact on things like small and local businesses as well as the environment through packaging and shipping waste.<br><br>
+            Our tool makes use of Google's Places API, that has data on stores that you can find on Google Maps. It searches for stores that are of the same category as the Amazon product, and also checks if the product is sold by a third party seller. As of now, the tool is not hosted for public use, but plans for that are in place.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">JavaScript</p>
+          <p class="projectLang">Node.js</p>
+          <p class="projectLang">Express.js</p>
+          <p class="projectLang">API's</p>
+          <p class="projectLang">HTML</p>
+          <p class="projectLang">CSS</p>
+          <p class="projectLang">Web Design</p>
+          <p class="projectLang">Team Project</p>
+        </div>
+        <button class="projectBtn"><a href="https://github.com/JohnHenry-Ward/BuyBetter" target="_blank">Github</a></button>
+        <button class="projectBtn"><a href="https://www.youtube.com/watch?v=qIx5rgBdwuM" target="_blank">Demo</a></button>
+        <button class="projectBtn"><a href="https://johnhenry-ward.github.io/buyBetter-report/" target="_blank">Report</a></button>
+      </div>
+      <div class="project">
+        <img src="images/sentimentAnalysis.png" class="projectImg">
+        <div class="projectTitle">Movie Script Sentiment Analysis</div>
+        <p class="projectText">
+            This project was created when I took Natural Language Processing. I created the question "Can the highs and lows of movies be visualized using script sentiment analysis?" More specifically, can a movie be categorized as one of the six main arcs of storytelling. These six arcs originally stemmed from author Kurt Vonnegut's rejected masters thesis. The task I set out to accomplish was see if I could create an algorithm that read in a movie script, performed sentiment analysis on it, track and plot the sentiment, and see if that graph resembled any of the six arcs of storytelling. <br><br>
+            I was successfully able to create an algorithm that did all those things that I set out to accomplish, and my results indicated that it is in fact possible to create graphs that resemble one of those six arcs. I was really pleased with my results, and even more happy that I was able to take two things that I love, movies and programming, and combine them to create something that I think is really cool and fascinating. 
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">Python</p>
+          <p class="projectLang">NLP</p>
+          <p class="projectLang">Movies</p>
+        </div>
+        <button class="projectBtn"><a href="https://github.com/JohnHenry-Ward/Script-Sentiment-Analysis" target="_blank">Github</a></button>
+      </div>
+      <div class="project">
+        <img src="images/microshell1.png" class="projectImg">
+        <div class="projectTitle">Microshell in C</div>
+        <p class="projectText">
+            This project was built using the C language, taking advantage of C system calls, as well as using C's pointer focused design and memory allocation for storing commands in arrays. It's main use is to read commands from the command line and appropriately execute it. The Microshell can handle many different commands from the terminal command line that most shells can handle.<br><br>
+            This project helped me understand the UNIX operating system, gain experience writing C code, and helped me understand programming topics like pointers, system vs library calls, and memory. You can follow the github link to see a more in depth description of the commands possible in my Microshell.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">C</p>
+          <p class="projectLang">Unix</p>
+          <p class="projectLang">Pointers</p>
+          <p class="projectLang">System Calls</p>
+          <p class="projectLang">Memory</p>
+        </div>
+        <button class="projectBtn"><a href="https://github.com/JohnHenry-Ward/Microshell" target="_blank">Github</a></button>
+      </div>
+      <div class="project">
+        <img src="images/Deadwood2.png" class="projectImg">
+        <div class="projectTitle">Deadwood in Java</div>
+        <p class="projectText">
+            This was one of the first major products I worked on. Me and another undergraduate student were tasked with creating the board game Deadwood in Java. The game can be played with 2-8 players, utilizes multiple classes, and implements design patterns we learned from our Object Oriented design class. It also uses the Java framework Java Swing to create GUI's. <br><br>
+            This project taught me a lot about the software design process, as well as how important it is to have strong communication skills when working on a development team. This project also taught me a lot about the importance of version control using Git. My teammate and I learned a lot about version control and code organization, especially when we would have multiple merge conflicts! Although the code is a bit clunky, as this was created earlier on in my CS journey, I am really proud with the final product, and would love to create another product similar to this to see how much I have learned and to learn better ways to do things. 
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">Java</p>
+          <p class="projectLang">Object Oriented</p>
+          <p class="projectLang">Design Patterns</p>
+          <p class="projectLang">Version Control</p>
+          <p class="projectLang">Team Project</p>
+        </div>
+        <button class="projectBtn"><a href="https://github.com/JohnHenry-Ward/Deadwood" target="_blank">Github</a></button>
+      </div>
+      <div class="project">
+        <img src="images/project2Img1.png" class="projectImg">
+        <div class="projectTitle">NorthWest Books</div>
+        <p class="projectText">
+          This website originally stemmed from a final project in my MIS 314 class, and I wanted to take the project further than what was assigned. I designed the concept for the website in Adobe Xd, which I
+          had some experience with before hand so it was fun and challenging to practice a new technology. I also used Xampp so that I could work on the PHP functionality locally.<br><br>
+          Once I had some basic design ideas built, I began to build the site, first using HTML5 and CSS3. I
+          used some CSS stylings such grid and flexbox, and once I had the HTML styled, I began to implement actual functionality using PHP and SQL.<br><br>
+          The website uses nine different tables that are read from a database using SQL queries. Rows in these tables can be crated, removed, updated, and deleted. This was my first project using PHP and SQL and I had a lot of fun doing it. I understand how websites like Amazon.com work, and feel confident that I could produce a function online shopping website for a company.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">HTML5</p>
+          <p class="projectLang">CSS3</p>
+          <p class="projectLang">PHP</p>
+          <p class="projectLang">SQL</p>
+          <p class="projectLang">Web Design</p>
+        </div>
+        <button class="projectBtn"><a href="https://github.com/JohnHenry-Ward/NorthWest-Books" target="_blank">Github</a></button>
+      </div>
+      <div class="project">
+        <div class="projectTitle">More Projects to Come!</div>
+        <p class="projectText">
+          I love creating and coming up with new project to work on. Whether it be to learn a new language or technology, or to just see if I can create something cool, I love doing it. Right now I want to create some full stack projects using either the MERN or MEAN stacks. I want to focus on learning new technologies like React, Angular, and MongoDB, while also practicing using tools like Node and Express.
+        </p>
+        <div class="projectLanguages">
+          <p class="projectLang">Full Stack</p>
+          <p class="projectLang">Web Development</p>
+          <p class="projectLang">Learn New Things!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 <footer>
@@ -130,9 +326,6 @@
 </footer>
 
 <script src="js/jquery-3.3.1.js"></script>
-<script src="js/scrollreveal.js"></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
 <script src="js/main.js"></script>
 
 </html>
