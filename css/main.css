@@ -630,10 +630,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media(max-width: 590px){
-    .projectImg{
-        height: 100%;
-    }
-
     .background1{
         display: none;
     }
