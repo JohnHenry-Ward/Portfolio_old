@@ -21,54 +21,45 @@
   <title>JohnHenry Ward</title>
 </head>
 <header>
-  <div id="home"></div>
+  <nav>
+    <div class="menuBackground"></div>
+    <i class="fas fa-bars" id="open-menu" title="Open Menu"></i>
 
-  <!---<div class="background1" id="background1"></div>-->
-
-  <div class="menuBackground"></div>
-  <i class="fas fa-bars" id="open-menu" title="Open Menu"></i>
-
-  <ul class="menu">
-    <li><i class="fas fa-times" id="closeMenu" title="Close Menu"></i></li>
-    <li><a href="#home" class="scroll">home</a></li>
-    <li><a href="#about" class="scroll">about</a></li>
-    <li><a href="#experiences" class="scroll">experience</a></li>
-    <li><a href="#projects" class="scroll">projects</a></li>
-  </ul>
-
-  <div class="background-headshot">
-    <img src="images/headshot.png">
-  </div>
-
-  <div class=" homeInfo">
-    <h1 class="name">JohnHenry Ward</h1>
-    <h4 class="headInfo">
-      <a href="mailto:johnhenry514@gmail.com">
-        johnhenry514@gmail.com
-      </a>
-      <br>
-      <a href="tel:+14253454792">
-        425-345-4792
-      </a>
-    </h4>
-    <a href="https://github.com/JohnHenry-Ward" target="_blank" class="githubHeader" title="Github">
-      <i class="fab fa-github" id="githubHeader"></i>
-    </a> <br>
-    <a href="JohnHenry_Ward_Resume.pdf" target="_blank">
-      <!-- PDF Link to Resume.pdf goes here-->
-      <button class="resume">Resume.pdf</button>
-    </a>
-  </div>
-
-  <img src="images/pagebreak.svg" class="pagebreak1">
-  <img src="images/pagebreak1.svg" class="pagebreak2">
-  <img src="images/pagebreak.svg" class="pagebreak3">
-  <img src="images/pagebreak1.svg" class="pagebreak4">
-
-  <div id="particles-js"></div>
+    <ul class="menu">
+      <li><i class="fas fa-times" id="closeMenu" title="Close Menu"></i></li>
+      <li><a href="#home" class="scroll">home</a></li>
+      <li><a href="#about" class="scroll">about</a></li>
+      <li><a href="#experiences" class="scroll">experience</a></li>
+      <li><a href="#projects" class="scroll">projects</a></li>
+    </ul>
+  </nav>
 </header>
 
+  <section class="home" id="home">
+    <img class="background-headshot" src="images/headshot.png">
+  
+    <div class=" homeInfo">
+      <h1 class="name">JohnHenry Ward</h1>
+      <h4 class="headInfo">
+        <a href="mailto:johnhenry514@gmail.com">
+          johnhenry514@gmail.com
+        </a>
+        <br>
+        <a href="tel:+14253454792">
+          425-345-4792
+        </a>
+      </h4>
+      <a href="https://github.com/JohnHenry-Ward" target="_blank" class="githubHeader" title="Github">
+        <i class="fab fa-github" id="githubHeader"></i>
+      </a> <br>
+      <a href="JohnHenry_Ward_Resume.pdf" target="_blank">
+        <button class="resume">Resume.pdf</button>
+      </a>
+    </div>
+  </section>
+
 <body>
+  <img src="images/pagebreak.svg" class="pagebreak1">
 
   <!-- About -->
   <section class="about" id="about">
@@ -149,6 +140,7 @@
       </div>
     </div>
   </section>
+  <!-- <img src="images/pagebreak1.svg" class="pagebreak2"> -->
 
   <!-- Experience -->
   <section class="experiences" id="experiences">
@@ -175,6 +167,9 @@
       </div>
     </div>
   </section>
+
+  <!-- <img src="images/pagebreak.svg" class="pagebreak3"> -->
+  <!-- <img src="images/pagebreak1.svg" class="pagebreak4"> -->
 
   <!-- Projects -->
   <section class="projects" id="projects">
@@ -307,6 +302,7 @@
       </div>
     </div>
   </section>
+  
 </body>
 
 <footer>
@@ -315,7 +311,7 @@
     <a href="https://github.com/JohnHenry-Ward" target="_blank" title="Github">
       <i class="fab fa-github" id="githubFooter"></i>
     </a>
-    <a href="https://www.linkedin.com/in/johnhenry-ward-456687167/" target="_blank" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/johnhenry-ward/" target="_blank" title="LinkedIn">
       <i class="fab fa-linkedin-in" id="linkedinFooter"></i>
     </a>
     <a href="https://twitter.com/JohnHenry_3000" target="_blank" title="Twitter">
