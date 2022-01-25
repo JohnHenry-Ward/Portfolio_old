@@ -141,6 +141,16 @@ body{
     border: 2px solid var(--yellow-color);
 }
 
+nav a{
+    color: var(--yellow-color);
+}
+
+nav a:hover{
+    color: var(--yellow-color);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .menuBackground{
     background-color: var(--dark-bg-transparent);
     width: 45px;
